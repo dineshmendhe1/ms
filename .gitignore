@@ -1,0 +1,8 @@
+# Compiler outputs #
+*.exe
+
+# Directories #
+backwpup-d2f815-backups
+
+# Packages #
+*.jar

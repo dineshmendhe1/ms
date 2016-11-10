@@ -1,0 +1,35 @@
+[03/May/2016:04:29:41] Time of installation: 2016-05-03 04:29:41
+[03/May/2016:04:29:41] Installed version: 2.1.2
+[03/May/2016:04:29:41] PRNG status: 1
+[03/May/2016:04:29:41] RNG - /dev/urandom read successfully.
+[03/May/2016:04:29:41] Upgrade started from version 2.1.2
+[03/May/2016:04:29:41] Upgrade finished.
+[03/May/2016:04:29:44] Time of installation: 2016-05-03 04:29:44
+[03/May/2016:04:29:44] Installed version: none
+[03/May/2016:04:29:44] PRNG status: 1
+[03/May/2016:04:29:44] RNG - /dev/urandom read successfully.
+[03/May/2016:04:29:44] Upgrade started from version none
+[03/May/2016:04:29:44] Upgrade finished.
+[03/May/2016:04:29:48] Time of installation: 2016-05-03 04:29:48
+[03/May/2016:04:29:48] Installed version: none
+[03/May/2016:04:29:48] PRNG status: 1
+[03/May/2016:04:29:48] RNG - /dev/urandom read successfully.
+[03/May/2016:04:29:48] Upgrade started from version none
+[03/May/2016:04:29:48] Upgrade finished.
+[03/May/2016:04:29:59] Update check - installed version:
+[03/May/2016:04:29:59] Time of installation: 2016-05-03 04:29:59
+[03/May/2016:04:29:59] Installed version: none
+[03/May/2016:04:29:59] PRNG status: 1
+[03/May/2016:04:29:59] RNG - /dev/urandom read successfully.
+[03/May/2016:04:29:59] Upgrade started from version none
+[03/May/2016:04:29:59] Upgrade finished.
+[25/Jul/2016:03:48:03] 35328482 drd10001 Array
+[25/Jul/2016:03:48:03] 30812658 drd10001 Array
+[25/Jul/2016:03:48:03] 41073348 drd10001 Array
+[25/Jul/2016:03:48:03] 81887919 drd10001 Array
+[25/Jul/2016:03:48:03] 72320986 drd10001 Array
+[25/Jul/2016:03:48:03] 76435986 drd10001 Array
+[25/Jul/2016:03:48:03] 12964213 drd10001 Array
+[25/Jul/2016:03:48:03] 15267638 drd10001 Array
+[25/Jul/2016:03:48:03] 12985814 drd10001 Array
+[25/Jul/2016:03:48:03] 60003773 drd10001 Array

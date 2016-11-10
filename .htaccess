@@ -1,0 +1,34 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^administrator/?$ /wp-login.php [QSA,L]
+RewriteRule ^administrator/register/?$ /wp-login.php?action=register [QSA,L]
+RewriteRule ^administrator/lostpassword/?$ /wp-login.php?action=lostpassword [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN Hotlinking
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://www.modernsoftwares.com/.*$ [NC]
+RewriteRule \.(pdf|doc|docx|odt|rtf|txt)$ [R=302,L]
+</IfModule>
+
+# END Hotlinking
+# BEGIN Force Download
+AddType application/octet-stream .pdf .txt
+
+# END Force Download
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 96.31.35.13
+deny from 96.0.0.0/8

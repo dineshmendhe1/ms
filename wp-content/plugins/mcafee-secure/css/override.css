@@ -1,0 +1,11 @@
+.wrapper{
+    margin:0;
+    background: white;
+}
+#content{
+    padding:0;
+}
+
+a#mcafeesecure-activate-now:hover{
+    color: white !important;
+}

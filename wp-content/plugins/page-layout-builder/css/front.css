@@ -1,0 +1,28 @@
+#minimax-front-builder a.minimax-fe{
+    background:#05cc47;
+    border-radius:3px;
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    padding: 7px 10px;
+    border: 2px solid #fff;
+    box-shadow: none;
+}
+#minimax-front-builder a.minimax-fe:hover{background: #00b6e3;text-decoration: none;}
+
+.minimax_column .minimax_module .widget ul{ padding: 0px; margin:0px; }
+.minimax_column ul li{ margin-left: 15px; list-style: square; }
+.minimax_list li{ list-style: none !important; }
+
+
+.panel-group .panel-heading .fa{margin-top:5px !important;color: #3276B1;}
+.panel-heading .accordion-toggle:after {font-family: 'FontAwesome';content: "\f056";float: right;}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\f055";    /* adjust as needed, taken from bootstrap.css */
+}
+.w3eden .btn:not(.btn-default){color: #ffffff !important;}
+
+.wow { visibility: hidden; }
+.minimax_module{overflow: auto;}

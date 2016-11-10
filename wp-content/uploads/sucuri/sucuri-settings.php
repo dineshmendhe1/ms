@@ -1,0 +1,2 @@
+<?php exit(0); ?>
+{"sucuriscan_plugin_version":"1.8.3","sucuriscan_runtime":1478625327,"sucuriscan_api_key":"1d581eee6673d04cf7b38c3b99cadeb3","sucuriscan_dns_lookups":"enabled","sucuriscan_sitecheck_counter":5,"sucuriscan_revproxy":"enabled","sucuriscan_addr_header":"HTTP_X_SUCURI_CLIENTIP","sucuriscan_collect_wrong_passwords":"enabled","sucuriscan_site_version":"4.6.1","sucuriscan_emails_sent":1,"sucuriscan_last_email_at":1478661341}

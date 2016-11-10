@@ -1,0 +1,48 @@
+.minimax-feature-box{
+    padding: 0;
+    margin: 0 0 20px;
+}
+.minimax-feature-box .minimax-feature-icon{
+    font-size: 25px;
+}
+.minimax-feature-box h3.minimax-feature-name,.minimax-feature-box h3.minimax-feature-name a{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+    margin: 0;
+    text-decoration: none;
+}
+.minimax-feature-box p.minimax-feature-des{
+    padding: 0;
+    margin: 0;
+}
+
+.minimax-feature-box-bordered{
+    text-align: center;
+    padding: 30px;
+    margin: 0 0 20px;
+    border: 1px solid #1ec0c9;
+    position: relative;
+}
+.minimax-feature-box-bordered .minimax-feature-icon{
+    font-size: 25px;
+}
+.minimax-feature-box-bordered h3.minimax-feature-name{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.minimax-feature-box-bordered.tagged:after {
+    content: 'TAG';
+    position: absolute;
+    top: 15px;
+    left: 0;
+    padding: 5px 10px;
+    background: #1ec0c9;
+    color: white;
+    border-radius: 0 2px 2px 0;
+    font-size: 12px;
+}

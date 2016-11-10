@@ -1,0 +1,182 @@
+/* Shortcode:Laptop Slideshow
+-------------------------------------------------------------------- */
+.mk-laptop-slideshow-shortcode {
+	margin: 0 auto 60px;
+	width: 100%;
+	text-align: center;
+	&.full-laptop {
+		.mk-flex-slides {
+			margin: 0 auto !important;
+		}
+	}
+	&.one-half-laptop {
+		.mk-flex-slides {
+			margin: 0 auto !important;
+			padding: 12px  70px 40px 70px;
+			@media handheld, only screen and (max-width:700px) {
+				padding: 15px  60px 10px 60px !important;
+			}
+			@media handheld, only screen and (max-width:600px) {
+				padding: 15px  50px 10px 50px !important;
+			}
+			@media handheld, only screen and (max-width:500px) {
+				padding: 15px 45px 10px 45px !important;
+			}
+			@media handheld, only screen and (max-width:450px) {
+				padding: 10px 40px 10px 40px !important;
+			}
+			@media handheld, only screen and (max-width:400px) {
+				padding: 7px 35px 10px 35px !important;
+			}
+			@media handheld, only screen and (max-width:350px) {
+				padding: 5px 30px 10px 30px !important;
+			}
+		}
+		.flex-direction-nav a {
+			margin-top: -16px;
+			.mk-jupiter-icon-arrow-left:before,
+			.mk-jupiter-icon-arrow-right:before {
+				font-size: 32px;
+			}
+		}
+	}
+	&.one-third-laptop {
+		.mk-flex-slides {
+			margin: 0 auto !important;
+			padding: 10px 35px 20px 35px;
+			@media handheld, only screen and (max-width:450px) {
+				padding: 12px 35px 20px 35px !important;
+			}
+			
+		}
+		.flex-direction-nav a {
+			margin-top: -12px;
+			.mk-jupiter-icon-arrow-left:before,
+			.mk-jupiter-icon-arrow-right:before {
+				font-size: 24px;
+			}
+		}
+	}
+	&.one-fourth-laptop {
+		margin-bottom: 30px !important;
+		.mk-flex-slides {
+			padding: 5px  15px 30px 25px;
+		}
+		.flex-direction-nav a {
+			margin-top: -8px;
+			.mk-jupiter-icon-arrow-left:before,
+			.mk-jupiter-icon-arrow-right:before {
+				font-size: 16px;
+			}
+		}
+	}
+	@media handheld, only screen and (max-width:600px) {
+		.mk-jupiter-icon-arrow-left:before,
+		.mk-jupiter-icon-arrow-right:before {
+			font-size: 32px !important;
+		}
+	}
+	&:hover {
+		.flex-direction-nav a {
+			.opacity(100);
+		}
+		.flex-prev {
+			left: 0px;
+		}
+		.flex-next {
+			right: 0px;
+		}
+	}
+	.mk-flex-slides {
+		text-align: center;
+	}
+	.flex-direction-nav a {
+		position: absolute;
+		top: 50%;
+		margin-top: -16px;
+		.mk-jupiter-icon-arrow-left:before,
+		.mk-jupiter-icon-arrow-right:before {
+			color: #ccc;
+			// text-shadow: -1px -1px 1px #999999;
+			font-size: 48px;
+		}
+		&:hover i:before {
+			color: #7f7f7f;
+			// text-shadow: -1px -1px 1px #525252;
+		}
+		.opacity(0);
+	}
+	.flex-prev {
+		left: 30px;
+	}
+	.flex-next {
+		right: 30px;
+	}
+}
+.mk-laptop-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.vc_col-sm-10 .full-laptop {
+	.mk-flex-slides {
+		padding: 25px  80px 10px 80px;
+	}
+}
+.vc_col-sm-8 .full-laptop {
+	.mk-flex-slides {
+		padding: 12px 85px 20px 85px;
+	}
+}
+.vc_col-sm-6 .full-laptop {
+	.mk-flex-slides {
+		padding: 10px  60px 20px 60px;
+	}
+	.mk-jupiter-icon-arrow-left:before,
+	.mk-jupiter-icon-arrow-right:before {
+		font-size: 32px !important;
+	}
+}
+.vc_col-sm-4 .full-laptop,
+.vc_col-sm-4 .one-half-laptop {
+	.mk-flex-slides {
+		padding: 10px  40px 20px 40px;
+	}
+	.mk-jupiter-icon-arrow-left:before,
+	.mk-jupiter-icon-arrow-right:before {
+		font-size: 24px !important;
+	}
+}
+.vc_col-sm-3 .full-laptop,
+.vc_col-sm-3 .one-half-laptop,
+.vc_col-sm-3 .one-third-laptop {
+	.mk-flex-slides {
+		padding: 2px  30px 15px 30px;
+	}
+	.mk-jupiter-icon-arrow-left:before,
+	.mk-jupiter-icon-arrow-right:before {
+		font-size: 24px !important;
+	}
+}
+.vc_col-sm-3 .one-third-laptop {
+	.mk-flex-slides {
+		padding: 7px  38px 15px 38px;
+	}
+	.mk-jupiter-icon-arrow-left:before,
+	.mk-jupiter-icon-arrow-right:before {
+		font-size: 16px !important;
+	}
+}
+.vc_col-sm-2 .full-laptop,
+.vc_col-sm-2 .one-half-laptop,
+.vc_col-sm-2 .one-third-laptop,
+.vc_col-sm-2 .one-fourth-laptop {
+	.mk-flex-slides {
+		padding: 2px  23px 15px 23px;
+	}
+	.mk-jupiter-icon-arrow-left:before,
+	.mk-jupiter-icon-arrow-right:before {
+		font-size: 16px !important;
+	}
+}

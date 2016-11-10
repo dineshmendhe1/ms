@@ -1,0 +1,129 @@
+
+.row-title i.fa {
+   margin-right:10px;
+}
+div.row i.fa-check {
+   color:#a5cf26;
+}
+div.row i.fa-times {
+   color:#ef0000;
+}
+div.row i.fa-warning {
+   color:#ffb902;
+}
+div.row i.fa-angle-up,div.row i.fa-angle-down {
+   color:#999;
+   font-size:25px;
+   float:right;
+   cursor:pointer;
+}
+div.row:hover {
+   background:#f7f7f7;
+}
+div.row a {
+   float:right;
+}
+.row {
+   border-top:solid 1px #efefef;
+   padding:20px;
+   cursor:pointer;
+}
+.row-title {
+   width:200px;
+   display:inline-block;
+   font-weight:bold;
+}
+.row-detail {
+   padding:10px;
+   display:none;
+}
+.row-end {
+   border-top:solid 1px #efefef;
+}
+h3 {
+   margin-bottom:10px;
+   margin-top:40px;
+}
+h3:first-child {
+   margin-top:0px;
+}
+#engslider {
+   margin-right:20px;
+   width:200px;
+   display:inline-block;
+}
+#engcode-demo-img {
+   width:250px;
+   height:150px;
+   background-repeat:no-repeat;
+   background-image:url(//d1d94ji59warph.cloudfront.net/static/img/engagement-bg.png);
+}
+#engcode-demo-img div {
+   background-repeat:no-repeat;
+   background-position:center center;
+   width:250px;
+   height:150px;
+}
+.ui-slider-handle {
+   outline:none;
+   cursor:pointer;
+}
+.content1-inner p {
+   line-height:150%;
+   margin-bottom:30px;
+}
+#modal_engagement_imgs {
+   text-align:center;
+   padding:10px;
+   background: #535559;
+}
+#modal_engagement_imgs a {
+   display:inline-block;
+   font-size:15px;
+   text-align:center;
+   width:30px;
+   line-height:30px;
+   color:#999;
+}
+#modal_engagement_imgs a:hover {
+   text-decoration:none;
+}
+#modal_engagement_imgs a.sel {
+   background:#fff;
+   color:#888;
+   border-radius: 50%;
+}
+.row .pill {
+   text-transform:uppercase;
+}
+.pro-upgrade {
+   line-height:170%;
+   border:solid 1px #efefef;
+   padding:20px 20px 20px 80px;
+   margin-bottom:20px;
+   background-repeat:no-repeat;
+}
+.pro-upgrade span {
+   color:#999;
+}
+.pro-upgrade-mfes {
+   background-image:url(//d1d94ji59warph.cloudfront.net/static/img/icon/mcafeesecure.png);
+   background-size:60px 60px;
+   background-position:-10px -12px;
+}
+.pro-upgrade-ts {
+   background-image:url(//d1d94ji59warph.cloudfront.net/static/img/icon/trustedsite.png);
+   background-size:40px 40px;
+   background-position:20px center;
+}
+.pro-upgrade button {
+   margin-top:10px;
+   float:right;
+}
+
+#mcafeesecure-announcement {
+   width: 1200px;
+   padding: 15px;
+   color: rgb(102,102,102);
+   background-color: white;
+}
